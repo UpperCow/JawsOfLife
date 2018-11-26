@@ -1,0 +1,202 @@
+@charset "utf-8";
+
+body {/* changed background image and made it fixed and covered window */
+	/* https://wallpapercave.com/wp/YZv7AKP.jpg */
+	background-image: url("MediaBackground.jpg");
+	background-attachment: fixed;
+	background-position: center;
+	background-size: cover;
+}
+
+section#main {
+	padding-top: 5px;
+	padding-bottom: 5px;
+}
+
+section#history {
+	width: 47%;
+	display: block;
+	float: left;
+}
+
+div.Lyrics {
+	height: 120px;
+	overflow: scroll;
+	border: 1px dotted purple;
+}
+
+section#tabhist {
+	padding-top: 5px;
+	display: block;
+	float: left;
+}
+
+table {
+	background-color: black;
+}
+
+table#tablehist col:first-of-type {
+	width: 200px;
+}
+
+table#tablehist col:last-of-type {
+	width: 650px;
+}
+
+table#tablehist th, table#tablehist td {
+	background-color: rgb(153, 255, 153);
+}
+
+table#tablehist td:first-of-type {
+	text-align: center;
+}
+
+
+col#HistFirstCol {
+	font-size: 12px;
+}	
+
+tr#HistFirst th {
+	font-size: 12px;
+	color: white;
+	background-color: purple;
+	text-align:left;
+}
+	
+section#history h1 { /* Placed to have a more apparent header */
+   font-size: 28px;
+   background-color: yellow;
+   text-align: center;
+   border-style: double;
+   border-width: 4px;
+}
+
+section#MediaForm {
+	padding-left:3px;
+	padding-right:3px;
+	width: 45%;
+	float: right;
+	display: block;
+	border-style: solid;
+    background-color: white;
+	height: 500px;
+	overflow: auto
+}
+
+section#MediaForm h1 { /* Placed to have a more apparent header */
+   font-size: 28px;
+   background-color: yellow;
+   text-align: center;
+   border-style: double;
+   border-width: 4px;
+}
+
+input#submit {
+	width: 360px;
+	height: 100px;
+}
+
+section#PicturesMedia {
+	display: block;
+	border-style: solid;
+	background-image: linear-gradient(to bottom, white, black);
+}
+
+section#PicturesMedia:hover > img#mediaPicOne:not(:hover) {
+	display: none;
+}
+
+section#PicturesMedia:hover > img#mediaPicTwo:not(:hover) {
+	display: none;
+}
+
+section#PicturesMedia:hover > img#mediaPicThree:not(:hover) {
+	display: none;
+}
+
+img#mediaPicOne {
+	margin-left: auto;
+	margin-right: auto;
+	height: 100px;
+	border-radius: 1500px;
+}
+
+img#mediaPicTwo {
+	margin-left: auto;
+	margin-right: auto;
+	height: 100px;
+	border-radius: 1500px;
+}
+
+img#mediaPicThree {
+	margin-left: auto;
+	margin-right: auto;
+	height: 100px;
+	border-radius: 1500px; 
+}
+
+img#mediaPicOne:hover {
+	margin-left: auto;
+	margin-right: auto;
+	height: 500px;
+	border-radius: 0px;
+}
+
+img#mediaPicTwo:hover {
+	margin-left: auto;
+	margin-right: auto;
+	height: 500px;
+	border-radius: 0px;
+}
+
+img#mediaPicThree:hover {
+	margin-left: auto;
+	margin-right: auto;
+	height: 500px;
+	border-radius: 0px;
+	display: inline-block;
+}
+
+/* NOTE: Be sure to fix problem when hovering on black space in picture line. */
+
+section#MediaDoneWrong {
+	border-style: solid;
+	border-width: 10px;
+	border-color: gray;
+	padding-left: 20px;
+	padding-right: 20px;
+	padding-bottom: 10px;
+    background-color: white;
+}
+
+section#MediaDoneWrong h1 { 
+   font-size: 28px;
+   background-color: yellow;
+   text-align: center;
+   border-style: double;
+   border-width: 4px;
+}
+
+table#tablewrong {
+	width: 841px;
+}
+
+#WrongFirstCol {
+	text-align: center;
+}
+
+table#tablewrong th, table#tablewrong td {
+	background-color: white;
+	padding:3px;
+}
+
+table#tablewrong th {
+	background-color: orange;
+}
+
+section#ILU {
+	width: 841px;
+	text-align:center;
+	padding-top: 5px;
+	padding-bottom:50%;
+}

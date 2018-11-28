@@ -104,14 +104,16 @@ section#bodyfacts { /* bottom text */
 }
 
 /*section and picture arrangements*/
-img#FactsTRexOne { /* T-Rex Image modding */
-	border-radius: 1500px; /* rounded edges to image as much as possible */
+
+
+img#FactsTRexOne { 
+	border-radius: 1500px; 
 	width: 75%; 
 	display: block;
 	margin-left: auto;
-	margin-right: auto; /* center */
-	transform: rotateY(180deg); /*mirror image*/
+	margin-right: auto;
 }
+
 
 section#ClipOne { /*moves header to the left and creates a block for section*/
 	display: block;

@@ -117,17 +117,20 @@ section#ClipOne { /*moves header to the left and creates a block for section*/
 	display: block;
 	border-style: solid;
 	border-width: 1px;
-	text-align: left;
+}
+
+div.ClipOne {
+	width: 560px;
 	clear: right;
+	float: left;
 }
 
-/*
-
-aside {
-	display: block;
+div.ClipOneText {
+	padding-left: 5px;
+	padding-right: 5px;
+	width: 250px;
+	float: right;
 }
-
-*/
 
 section#ClipTwo { /*moves header to right side and creates a block for section*/
 	display: block;
@@ -135,6 +138,19 @@ section#ClipTwo { /*moves header to right side and creates a block for section*/
 	border-width: 1px;
 	text-align: right;
 	clear: left;
+}
+
+div.ClipTwo {
+	width: 560px;
+	clear: left;
+	float: right;
+}
+
+div.ClipOneText {
+	padding-left: 5px;
+	padding-right: 5px;
+	width: 250px;
+	float: left;
 }
 
 /* Specifically for contact page */

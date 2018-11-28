@@ -3,27 +3,26 @@
 /* Marquee Styles */
 
 div.marquee {
-  position: relative;
-  background-color: white;
+	position: relative;
+	background-color: white;
 }
-
 div.marquee a {
-  position: absolute;
-  color: red;
+	position: absolute;
+	color: red;
 }
-
-
 /* Keyframe Styles */
-  
+
 @keyframes scroll {
-  0% { right: 0px; }
-  100% { right: 600px; }
+	0% {
+		right: 0px;
+	}
+	100% {
+		right: 600px;
+	}
 }
-
-
 /* Animation Styles */
 
 div.marquee a:hover {
-  animation: scroll 5s linear;
-  animation-iteration-count: 1;
+	animation: scroll 5s linear;
+	animation-iteration-count: 1;
 }

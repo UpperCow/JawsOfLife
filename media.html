@@ -1,11 +1,9 @@
 <!DOCTYPE html>
 <html>
-
-   <head>
-     <meta charset="utf-8" />
-	 <meta name="keywords" content="Jaws of Life, media, Barney" />
-	 <title>Jaws of Life - Media</title>
-   <!--
+<head>
+	<meta charset="utf-8">
+	<meta content="Jaws of Life, media, Barney" name="keywords">
+	<title>Jaws of Life - Media</title><!--
       OC CIS 155 Web Development I
       Build on Concepts Project #1
       
@@ -16,226 +14,170 @@
       Supporting files: sb.css, trex.jpg, TrexPhone.png, TRexHome.png, HeaderJoL.png
 
    -->
-      
-      <link href="sb.css" rel="stylesheet" />
-	  <link href="styles.css" rel="stylesheet" />
-	  <link href="MediaStyles.css" rel="stylesheet" /> <!-- All new information here -->
-	  <!-- Used from T7 Review -->
-	  <script src="cg_script.js"></script>
+	<link href="sb.css" rel="stylesheet">
+	<link href="styles.css" rel="stylesheet">
+	<link href="MediaStyles.css" rel="stylesheet"><!-- All new information here -->
+	<!-- Used from T7 Review -->
 
-   </head>
-<!--Nothing gets coded between closing head and opening body tags. All page content, including header, goes in the body.-->
-      <header>
-	     <!-- Made by Paint -->
-         <img id="banner" src="HeaderJoL.png" alt="Jaws of Life" />
-		 <nav id="siteNav">
-            <ul>
-			   <li><a href="home.html"><img src="TRexHome.png" alt="TRexHome"></a></li>
-			   <li><a href="facts.html"><img src="TRex-History.png" alt="TRexHistory"></a></li>
-			   <li><a href="media.html"><img src="TRexMedia.png" alt="TRexMedia"></a></li>
-               <li><a href="contact.html"><img src="TRexPhone.png" alt="Contact Us"></a></li>
-            </ul>
-		 </nav>
-      </header>
-
-      <section id="main">
-	     <section id="history">
+	<script src="cg_script.js">
+	</script>
+</head><!--Nothing gets coded between closing head and opening body tags. All page content, including header, goes in the body.-->
+<body>
+	<header>
+		<!-- Made by Paint -->
+		<img alt="Jaws of Life" id="banner" src="HeaderJoL.png">
+		<nav id="siteNav">
+			<ul>
+				<li>
+					<a href="home.html"><img alt="TRexHome" src="TRexHome.png"></a>
+				</li>
+				<li>
+					<a href="facts.html"><img alt="TRexHistory" src="TRex-History.png"></a>
+				</li>
+				<li>
+					<a href="media.html"><img alt="TRexMedia" src="TRexMedia.png"></a>
+				</li>
+				<li>
+					<a href="contact.html"><img alt="Contact Us" src="TRexPhone.png"></a>
+				</li>
+			</ul>
+		</nav>
+	</header>
+	<section id="main">
+		<section id="history">
 			<h1>Barney History!</h1>
 			<article>
-				Maximize the experience with music! <br/>
-					<!-- https://www.youtube.com/watch?v=XnVQ24d4664 -->
-					<audio controls loop>
-						<source src="BarneyTheme.mp3" type="audio/mpeg">
-						Your browser does not support the audio element.
-					</audio>
-						<div class="Lyrics">
-						<!-- https://genius.com/Barney-barney-theme-song-lyrics -->
-							<p>[Verse 1]<br/>
-							Barney is a dinosaur from our imagination<br/>
-							And when he's tall<br/>
-							He's what we call a dinosaur sensation<br/></p>
-
-							<p>[Verse 2]<br/>
-							Barney's friends are big and small<br/>
-							They come from lots of places<br/>
-							After school they meet to play<br/>
-							And sing with happy faces<br/></p>
-
-							<p>[Verse 3]<br/>
-							Barney shows us lots of things<br/>
-							Like how to play pretend<br/>
-							ABC's, and 123's<br/>
-							And how to be a friend<br/></p>
-
-							<p>[Verse 4]<br/>
-							Barney comes to play with us<br/>
-							Whenever we may need him<br/>
-							Barney can be your friend too<br/>
-							If you just make-believe him!<br/></p>
-						</div>
+				Maximize the experience with music!<br>
+				<!-- https://www.youtube.com/watch?v=XnVQ24d4664 -->
+				 <audio controls="" loop=""><source src="BarneyTheme.mp3" type="audio/mpeg"> Your browser does not support the audio element.</audio>
+				<div class="Lyrics">
+					<!-- https://genius.com/Barney-barney-theme-song-lyrics -->
+					<p>[Verse 1]<br>
+					Barney is a dinosaur from our imagination<br>
+					And when he's tall<br>
+					He's what we call a dinosaur sensation<br></p>
+					<p>[Verse 2]<br>
+					Barney's friends are big and small<br>
+					They come from lots of places<br>
+					After school they meet to play<br>
+					And sing with happy faces<br></p>
+					<p>[Verse 3]<br>
+					Barney shows us lots of things<br>
+					Like how to play pretend<br>
+					ABC's, and 123's<br>
+					And how to be a friend<br></p>
+					<p>[Verse 4]<br>
+					Barney comes to play with us<br>
+					Whenever we may need him<br>
+					Barney can be your friend too<br>
+					If you just make-believe him!<br></p>
+				</div>
 			</article>
-		 </section>
-		 
-
-	  
-
-	  <section id="MediaForm">
-		 <h1>Favorite Barney!</h1>
-		 <p>Barney is our favorite dinosaur, one way or another,
-		 but he has gone through different phases and designs!</p>
-		 
-		 <p>Which Barney design do you like the most?</p>
-	  
+		</section>
+		<section id="MediaForm">
+			<h1>Favorite Barney!</h1>
+			<p>Barney is our favorite dinosaur, one way or another, but he has gone through different phases and designs!</p>
+			<p>Which Barney design do you like the most?</p>
 			<form>
-			
-			<!-- http://barney.wikia.com/wiki/Barney_Through_the_Years -->
-			  <input type="radio" name="Barney" value="Barney1">
-			    <img id="BarneyVote1" src="BarneyVote1.png" alt="Vote1" /><br/>
-			  <input type="radio" name="Barney" value="Barney2">
-			    <img id="BarneyVote2" src="BarneyVote2.jpg" alt="Vote2" /><br/>
-			  <input type="radio" name="Barney" value="Barney3">
-			    <img id="BarneyVote3" src="BarneyVote3.jpg" alt="Vote3" /><br/>
-			  <input id="submit" type="submit" value="Submit">
-			  <!--Follow up with how to complete this section.-->
+				<!-- http://barney.wikia.com/wiki/Barney_Through_the_Years -->
+				<input name="Barney" type="radio" value="Barney1"> <img alt="Vote1" id="BarneyVote1" src="BarneyVote1.png"><br>
+				<input name="Barney" type="radio" value="Barney2"> <img alt="Vote2" id="BarneyVote2" src="BarneyVote2.jpg"><br>
+				<input name="Barney" type="radio" value="Barney3"> <img alt="Vote3" id="BarneyVote3" src="BarneyVote3.jpg"><br>
+				<input id="submit" type="submit" value="Submit"> <!--Follow up with how to complete this section.-->
 			</form>
-	  
-	  
-	  
-	  </section>
-
-		 <section id="tabhist">
-		 <table id="tablehist">
-			
+		</section>
+		<section id="tabhist">
+			<table id="tablehist">
+				<colgroup>
+					<col id="HistFirstCol">
+					<col>
+				</colgroup>
+				<thead>
+					<tr id="HistFirst">
+						<th>History Facts</th>
+						<th>Description</th>
+					</tr>
+				</thead>
+				<tbody>
+					<!-- Source: http://barney.wikia.com/wiki/Barney -->
+					<tr>
+						<td>1987</td>
+						<td>Barney was supposed to be a blanket. However, it then was considered to be a teddybear until the creator (and later producer), Sheryl Lyna Stamps-Leach thought it would be best to change it into a dinosaur. The color was considered after creation.</td>
+					</tr><!-- Source: http://barney.wikia.com/wiki/Barney_%26_the_Backyard_Gang -->
+					<tr>
+						<td>August 29, 1988</td>
+						<td>The first official airing of the Barney & The Backyard Gang</td>
+					</tr>
+					<tr>
+						<td>April 6, 1992<br>
+						-<br>
+						November 2, 2010</td>
+						<td>Barney & Friends was aired on PBS.</td>
+					</tr>
+				</tbody>
+			</table>
+		</section>
+	</section>
+	<section id="PicturesMedia">
+		<!-- http://cinefex.com/blog/wp-content/uploads/2014/02/T-Rex_Spinosaurus.jpg -->
+		<img alt="MediaPic1" id="mediaPicOne" src="BoC3Pic1.jpg"> <!-- https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/8v6a4665-1485327598.jpg?crop=1xw:1xh;center,top&resize=480:* -->
+		 <img alt="MediaPic2" id="mediaPicTwo" src="BoC3Pic2.jpg"> <!-- https://justkickthecan.files.wordpress.com/2013/03/funny-unstoppable-trex.jpg?w=605 -->
+		 <img alt="MediaPic3" id="mediaPicThree" src="BoC3Pic3.jpg">
+	</section>
+	<section id="MediaDoneWrong">
+		<h1>What Has Media Done Wrong?</h1>
+		<table id="tablewrong">
 			<colgroup>
-			    <col id="HistFirstCol" />
-				<col />
+				<col id="WrongFirstCol">
+				<col span="2">
 			</colgroup>
-			
-			<thead>
-				<tr id="HistFirst">
-					<th>History Facts</th>
-					<th>Description</th>
-				</tr>			
-			</thead>
-			
-			<tbody>
-			<!-- Source: http://barney.wikia.com/wiki/Barney -->
-				<tr>
-					<td>1987</td>
-					<td>Barney was supposed to be a blanket. However, it then was considered 
-					    to be a teddybear until the creator (and later producer), Sheryl Lyna
-						Stamps-Leach thought it would be best to change it into a dinosaur. The
-						color was considered after creation.</td>
-				</tr>
-			<!-- Source: http://barney.wikia.com/wiki/Barney_%26_the_Backyard_Gang -->
-				<tr>
-					<td>August 29, 1988</td>
-					<td>The first official airing of the Barney & The Backyard Gang</td>
-				</tr>
-				
-				<tr>
-					<td>April 6, 1992<br/> - <br/>November 2, 2010</td>
-					<td>Barney & Friends was aired on PBS.</td>
-				</tr>
-				
-			</tbody>
-			
-			
-		 </table>
-		 </section>
-		 
-	 </section>
-	  
-	  <section id="PicturesMedia">
-	  <!-- http://cinefex.com/blog/wp-content/uploads/2014/02/T-Rex_Spinosaurus.jpg -->
-		<img id="mediaPicOne" src="BoC3Pic1.jpg" alt="MediaPic1" />
-	  <!-- https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/8v6a4665-1485327598.jpg?crop=1xw:1xh;center,top&resize=480:* -->
-		<img id="mediaPicTwo" src="BoC3Pic2.jpg" alt="MediaPic2" />
-	  <!-- https://justkickthecan.files.wordpress.com/2013/03/funny-unstoppable-trex.jpg?w=605 -->
-		<img id="mediaPicThree" src="BoC3Pic3.jpg" alt="MediaPic3" />
-	  </section>
-	  
-	  <section id="MediaDoneWrong">
-	     <h1>What Has Media Done Wrong?</h1>
-		 
-		 <table id="tablewrong">
-			
-			<colgroup>
-			    <col id="WrongFirstCol" />
-				<col span="2"/>
-			</colgroup>
-			
 			<thead>
 				<tr id="WrongFirst">
 					<th>Movie</th>
 					<th>Media Claim</th>
 					<th>Fact or Theory</th>
-				</tr>			
+				</tr>
 			</thead>
-			
 			<tbody>
-			
-			<!-- Source: https://en.wikipedia.org/wiki/Timeline_of_tyrannosaur_research -->
-			<!-- Source https://en.wikipedia.org/wiki/Tyrannosaurus-->
+				<!-- Source: https://en.wikipedia.org/wiki/Timeline_of_tyrannosaur_research -->
+				<!-- Source https://en.wikipedia.org/wiki/Tyrannosaurus-->
 				<tr>
 					<td>Jurassic Park</td>
 					<td>You cannot be seen if you do not move.</td>
-					<td>Fact: False. You might want to start running. T-Rex eyes are 
-					    that of popular birds of prey. Also, its sense of smell is 
-						very potent.</td>
+					<td>Fact: False. You might want to start running. T-Rex eyes are that of popular birds of prey. Also, its sense of smell is very potent.</td>
 				</tr>
-				
 				<tr>
 					<td>Jurassic World</td>
 					<td>Running away from a T-Rex.</td>
-					<td>Theory: True. However, you can outWALK a T-Rex. It is said that T-Rex
-      					are incapable of running.</td>
+					<td>Theory: True. However, you can outWALK a T-Rex. It is said that T-Rex are incapable of running.</td>
 				</tr>
-				
 				<tr>
 					<td>Jurassic Park</td>
 					<td>T-Rex roar is very loud.</td>
-					<td>Theory: False. Sadly, it is believed that T-Rex is very much
-					    in tune with that of a bird, and it has tonsils and lungs
-						like that of a bird. Better start tweeting.</td>
+					<td>Theory: False. Sadly, it is believed that T-Rex is very much in tune with that of a bird, and it has tonsils and lungs like that of a bird. Better start tweeting.</td>
 				</tr>
-				
 				<tr>
 					<td>Almost every dinosaur movie prior to year 2001</td>
 					<td>All dinosaurs have scales.</td>
-					<td>Theory: False. It is actually now believed that carnivorous
-					    dinosaurs actually have feathers.</td>
+					<td>Theory: False. It is actually now believed that carnivorous dinosaurs actually have feathers.</td>
 				</tr>
-				
 				<tr>
 					<td>Almost every dinosaur movie prior to year 2001</td>
 					<td>T-Rex arms are almost useless</td>
-					<td>Fact: False. Though they are relatively small in comparison
-					    their large bodies, they can actually lift over four hundred
-						pounds per arm.</td>
-				</tr>
-			<!-- Source: https://www.youtube.com/watch?v=JmOyvuWs-dc -->
-			<!-- Source: https://www.youtube.com/watch?v=Vl0qjhDMdJA -->
+					<td>Fact: False. Though they are relatively small in comparison their large bodies, they can actually lift over four hundred pounds per arm.</td>
+				</tr><!-- Source: https://www.youtube.com/watch?v=JmOyvuWs-dc -->
+				<!-- Source: https://www.youtube.com/watch?v=Vl0qjhDMdJA -->
 				<tr>
 					<td>Almost every Barney cameo aside from the main series</td>
 					<td>Barney is psychotic.</td>
-					<td>Fact: False. He's made from our imagination. Besides, <br/>
-					    <strong>he lovesyou</strong>.</td>
+					<td>Fact: False. He's made from our imagination. Besides,<br>
+					<strong>he lovesyou</strong>.</td>
 				</tr>
 			</tbody>
-			
-		 </table>
-		 
-		 
-		 
-		 
-	  </section>
-      <section id="ILU">
-		<iframe width="560" height="315" src="https://www.youtube.com/embed/Vl0qjhDMdJA" 
-	    allow="accelerometer; encrypted-media; gyroscope; picture-in-picture" 
-		allowfullscreen></iframe>
-	  </section>
-		
-   </body>
-<!--Nothing gets coded between closing body and closing html tags. All page content, including footer, goes in the body.-->
+		</table>
+	</section>
+	<section id="ILU">
+		<iframe allowfullscreen height="315" src="https://www.youtube.com/embed/Vl0qjhDMdJA" width="560"></iframe>
+	</section><!--Nothing gets coded between closing body and closing html tags. All page content, including footer, goes in the body.-->
+</body>
 </html>

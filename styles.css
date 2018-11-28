@@ -1,168 +1,156 @@
 @charset "utf-8";
-
-@font-face { /* Added header information due to missing in BoC1 */
-  font-family: Arial; 
+@font-face {
+	/* Added header information due to missing in BoC1 */
+	font-family: Arial;
 }
-
 /* Display HTML5 structural elements as blocks */
-
 
 /* Body styles */
 
 html {
-	margin-bottom: 60%; /* opened bottom to see the background image */
+	margin-bottom: 60%;
+	/* opened bottom to see the background image */
 }
-
-body {/* changed background image and made it fixed and covered window */
+body {
+	/* changed background image and made it fixed and covered window */
 	background-image: url("trexback.jpg");
 	background-attachment: fixed;
 	background-position: center;
 	background-size: cover;
 }
-
 section#main {
-	color: black; /* placed here to change the font color later */
+	color: black;
+	/* placed here to change the font color later */
 }
-
 /* Site Navigation Styles */
 
-nav#siteNav ul { /* placed to have a horizontal navigation instead of a vertical navigation */
+nav#siteNav ul {
+	/* placed to have a horizontal navigation instead of a vertical navigation */
 	text-decoration: none;
 	order: 0;
 	list-style: none;
-    margin: 0;
-    padding: 0;
-    display: flex;
-    justify-content: space-around;
+	margin: 0;
+	padding: 0;
+	display: flex;
+	justify-content: space-around;
 	background-color: black;
 }
-
-nav#siteNav img { /* limit picture height */
+nav#siteNav img {
+	/* limit picture height */
 	height: 100px;
 }
-
 /* Header Styles */
 
-img#banner { /* fixed banner to fit correctly with rest of page */
+img#banner {
+	/* fixed banner to fit correctly with rest of page */
 	display: block;
 	width: 100%;
 	margin-left: auto;
 	margin-right: auto;
-} 
-
-
-
-
+}
 /* Main Section Styles */
 
-section#main h1 { /* Placed to have a more apparent header */
-   font-size: 28px;
-   background-color: yellow;
-   text-align: center;
-   border-style: double;
-   border-width: 4px;
+section#main h1 {
+	/* Placed to have a more apparent header */
+	font-size: 28px;
+	background-color: yellow;
+	text-align: center;
+	border-style: double;
+	border-width: 4px;
 }
-
-section#main h2 { /*dashed border for subheaders*/
-   font-size: 20px;
-   font-family: courier;
-   background-color: orange;
-   border-style: dashed;
-   border-width: 4px;
+section#main h2 {
+	/*dashed border for subheaders*/
+	font-size: 20px;
+	font-family: courier;
+	background-color: orange;
+	border-style: dashed;
+	border-width: 4px;
 }
-
-section#main { /* moved to have text away from border*/
+section#main {
+	/* moved to have text away from border*/
 	border-style: solid;
 	border-width: 10px;
 	border-color: gray;
 	padding-left: 20px;
 	padding-right: 20px;
 	padding-bottom: 10px;
-    background-color: white;
+	background-color: white;
 	width: 93%;
 }
-
 /* Specifically for home page */
 
 img#bicycle {
-	height: 200px; /*image resize*/
+	height: 200px;
+	/*image resize*/
 }
-
 /* Specifically for facts page */
 
 /*text arrangements*/
+
 /* There were deviations from the general code */
 
-section#mainfacts { /*color gradient and overflow*/
+section#mainfacts {
+	/*color gradient and overflow*/
 	background-image: linear-gradient(to bottom, white, black);
 	overflow: auto;
 }
-
-section#bodyfacts { /* bottom text */
+section#bodyfacts {
+	/* bottom text */
 	text-align: center;
 	color: white;
 }
-
 /*section and picture arrangements*/
 
-
-img#FactsTRexOne { 
-	border-radius: 1500px; 
-	width: 75%; 
+img#FactsTRexOne {
+	border-radius: 1500px;
+	width: 75%;
 	display: block;
 	margin-left: auto;
 	margin-right: auto;
 }
-
-
-section#ClipOne { /*moves header to the left and creates a block for section*/
+section#ClipOne {
+	/*moves header to the left and creates a block for section*/
 	display: block;
 	border-style: solid;
 	border-width: 1px;
 }
-
 div.ClipOne {
 	width: 560px;
 	clear: right;
 	float: left;
 }
-
 div.ClipOneText {
 	padding-left: 5px;
 	padding-right: 5px;
 	width: 250px;
 	float: right;
 }
-
-section#ClipTwo { /*moves header to right side and creates a block for section*/
+section#ClipTwo {
+	/*moves header to right side and creates a block for section*/
 	display: block;
 	border-style: solid;
 	border-width: 1px;
 	text-align: right;
 	clear: left;
 }
-
 div.ClipTwo {
 	width: 560px;
 	clear: left;
 	float: right;
 }
-
 div.ClipOneText {
 	padding-left: 5px;
 	padding-right: 5px;
 	width: 250px;
 	float: left;
 }
-
 /* Specifically for contact page */
 
 section#Contact {
-   text-align: center;
+	text-align: center;
 }
-
 section#Contact ul {
-   list-style-type: none;
-   margin: 0;
-   padding: 0;
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
 }
